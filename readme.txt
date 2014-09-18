@@ -20,4 +20,7 @@ git commit -m "remove test.txt" //提交删除
 
 git checkout -- test.txt  //回复文件
 
-git remote add origin git@github.com:xingkongyingke/learngit.git
+ssh-keygen -t rsa -C "xingkongyingke@163.com"   //生存自己的密钥   提示输入信息不要输入：输入回有问题：记住直接下一步
+git remote add origin git@github.com:xingkongyingke/learngit.git  //绑定上github
+git push -u origin master     //推送上传  第一次用要加 -u
+git push origin master   //以后直接推送
