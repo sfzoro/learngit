@@ -19,3 +19,5 @@ git rm test.txt  //从git中删除
 git commit -m "remove test.txt" //提交删除
 
 git checkout -- test.txt  //回复文件
+
+git remote add origin git@github.com:xingkongyingke/learngit.git
