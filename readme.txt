@@ -1,4 +1,4 @@
-git config --global user.name "xingke"
+﻿git config --global user.name "xingke"
 git config --global user.name "xingkongyingke@163.com"
 mkdir learngit
 cd learngit
@@ -24,3 +24,5 @@ ssh-keygen -t rsa -C "xingkongyingke@163.com"   //生存自己的密钥   提示
 git remote add origin git@github.com:xingkongyingke/learngit.git  //绑定上github
 git push -u origin master     //推送上传  第一次用要加 -u
 git push origin master   //以后直接推送
+
+git clone git@github.com:xingkongyingke/learngit.git
