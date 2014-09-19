@@ -26,3 +26,9 @@ git push -u origin master     //推送上传  第一次用要加 -u
 git push origin master   //以后直接推送
 
 git clone git@github.com:xingkongyingke/learngit.git
+
+git checkout -b dev  //创建dev分支, 可拆分为下面两条
+git branch dev
+git checkout dev 
+
+git branch   //列处当前所有的分支
