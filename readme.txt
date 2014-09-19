@@ -35,3 +35,5 @@ git branch   //列处当前所有的分支
 git checkout master //切换到master分支
 git merge dev    //把dev分支合并到master分支上
 
+git branch -d dev   //删除dev分支
+
