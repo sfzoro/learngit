@@ -32,3 +32,5 @@ git branch dev
 git checkout dev 
 
 git branch   //列处当前所有的分支
+git checkout master //切换到master分支
+
