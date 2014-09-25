@@ -52,5 +52,5 @@ cat -n readme.txt  //查看文件内容   -n 有行号
 2：在git的网址上创建自己的项目
 再在本机，拷贝你自己的项目
 git clone git@github.com:xingkongyingke/learngit.git
-然后在 （这是你的电脑的ssh在gitbhub的网址上添加了，这样就可以提交到远程的github上）
+然后在
 git push -u origin master 
