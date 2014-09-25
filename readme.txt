@@ -37,3 +37,6 @@ git merge dev    //把dev分支合并到master分支上
 
 git branch -d dev   //删除dev分支
 
+cat -n readme.txt  //查看文件内容   -n 有行号
+
+test
